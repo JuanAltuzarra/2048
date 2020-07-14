@@ -276,7 +276,6 @@ Bienvenido al menú de inicio del juego 2048,
     time.sleep(0.4)
     print("•Instrucciones y estrategia del juego (4)")
     time.sleep(0.3)
-    print("•Cambiar paleta de colores (5)")
     a=input("Escriba un número: ")
 
     if a=="3":
@@ -300,17 +299,6 @@ Bienvenido al menú de inicio del juego 2048,
             print("saliendo...")
             time.sleep(1)
             sys.exit
-
-    if a=="5":
-        delscr()
-        paleta()
-
-def paleta():
-    print("Ha cambiado a colores oscuros")
-    import colores_modo_oscuro as c
-    print("Regresando al menú principal...")
-    time.sleep(2)
-    cargar()
 
 
 
